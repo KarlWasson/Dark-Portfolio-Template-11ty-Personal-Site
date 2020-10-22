@@ -1,0 +1,15 @@
+{
+  "title": "Karl Wasson",
+  "url": "https://karlwasson.com/",
+  "description": "Website Performance, Technical SEO & Content Creation",
+  "feed": {
+    "subtitle": "I create  websites and content that performs, so you don't have to.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://karlwasson.com/"
+  },
+  "author": {
+    "name": "Karl Wasson",
+    "email": "karl.wasson@gmail.com"
+  }
+}
