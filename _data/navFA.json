@@ -1,7 +1,6 @@
 {
     "Home" : "fa-home",
     "Services" : "fa-wrench",
-    "Photos" : "fa-eye",
-    "Contact" : "fa-envelope",
-    "Archive" : "fa-archive"
+    "Portfolio" : "fa-book",
+    "Contact" : "fa-envelope"
 }
