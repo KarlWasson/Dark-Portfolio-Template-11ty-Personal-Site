@@ -1,3 +1,7 @@
+# Personal Site Using Dark-Portfolio-Template-11ty
+
+My Personal site uses this theme.
+
 # Dark-Portfolio-Template-11ty
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
