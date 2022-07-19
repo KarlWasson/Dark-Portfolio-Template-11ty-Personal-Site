@@ -25,5 +25,5 @@ White Sands is a part of a new trend in vacation rentals combining the freedom o
 
 ### Resort Marketing Support
 
-In addition to hotel copywriting services, I also delivered content writing support for the hotel and resort’s social media channels, press releases, newsletters and brochures.
+In addition to hotel copywriting services, I also delivered content writing support for the hotel and resort’s restaurant menu, social media channel, and newsletters.
 
