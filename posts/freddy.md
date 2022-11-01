@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 image: /img/w3images/Freddy-Flat.jpg
 ---
-Canadian denim company, Naked & Famous, engaged my creative copywriting services for their partnership with Wes Craven’s 1984 Horror Classic *A Nightmare on Elm Street*. 
+Canadian denim company, Naked & Famous engaged my creative copywriting services for their partnership with Wes Craven's 1984 Horror Classic *A Nightmare on Elm Street*. 
 
 As the creative copywriter on the project, I was tasked with telling the *A Nightmare On Elm Street x Naked & Famous Denim* story while highlighting the product's USPs.
 
@@ -17,6 +17,6 @@ Read the full release [here](https://stridewise.com/naked-famous-springwood-slas
 
 ### The Story
 
-The story starts by highlighting Naked & Famous's passion for weird and wild denim – from its Matrix crossovers to its scratch and sniff jeans.
+The story highlights Naked & Famous's passion for weird and wild denim – from its Matrix crossovers to its scratch-and-sniff jeans.
 
 As readers progress *A Nightmare on Elm Street* trivia is interlaced with feature highlights that appeal to Naked & Famous's target audience.
