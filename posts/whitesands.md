@@ -3,7 +3,10 @@ title: Vacation Rental Copywriter | White Sands Cove Resort
 description: Website copywriter for White Sands Cove Resort
 date: 2021-02-02
 tags:
-  - photo
+  - web copy
+  - SEO
+  - branding
+  
 layout: layouts/post.njk
 image: /img/w3images/whitesands.jpg
 ---
@@ -21,7 +24,7 @@ View White Sands Cove Website [here](https://www.whitesandscove.com/).
 
 As the vacation rental website copywriter, my first step was researching the target audience, their interests, expectations, and priorities to create a compelling voice and tone for the websites.
 
-White Sands is a part of a new trend in vacation rentals combining the freedom of a self-service rental with the amenities one would expect from a mid-market resort. Part of the brand's philosophy is to relax and unwind and experience Belize's 'go slow' attitude. While the website's youthful tone captures a *no worries* attitude, it speaks to readers in the brand's straightforward, no-nonsense tone.
+White Sands is a part of a new trend in vacation rentals combining the freedom of a self-service rental with the amenities one would expect from a mid-market resort. The brand's philosophy is to relax, unwind, and experience Belize's 'go slow' attitude. While the website's youthful tone captures a *no-worries* attitude, it speaks to readers in the brand's straightforward, no-nonsense tone.
 
 ### Resort Marketing Support
 

@@ -3,7 +3,10 @@ title: Creative Copywriting Case Study | Freddy Gets Faded - A Nightmare On Elm 
 description: This is a press release for menswear
 date: 2022-02-18
 tags:
-  - photo
+  - blog
+  - press release
+  - lifesytle
+  
 layout: layouts/post.njk
 image: /img/w3images/Freddy-Flat.jpg
 ---
@@ -19,4 +22,4 @@ Read the full release [here](https://stridewise.com/naked-famous-springwood-slas
 
 The story highlights Naked & Famous's passion for weird and wild denim – from its Matrix crossovers to its scratch-and-sniff jeans.
 
-As readers progress *A Nightmare on Elm Street* trivia is interlaced with feature highlights that appeal to Naked & Famous's target audience.
+As readers progress, *A Nightmare on Elm Street* trivia is interlaced with feature highlights that appeal to Naked & Famous's target audience.

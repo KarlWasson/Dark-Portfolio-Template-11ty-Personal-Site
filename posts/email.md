@@ -1,10 +1,12 @@
 ---
-title: Email Marketing Services | Email Copywriting Case Study
+title: Email Marketing Services | Parasocial Email Copywriting Case Study
 
 description: Email copywriting
 date: 2020-01-03
 tags:
-  - photo
+  - email
+  - lifestyle
+  - influencer
 layout: layouts/post.njk
 image: /img/w3images/email.jpg
 ---
@@ -14,8 +16,7 @@ As the email copywriter on the project, I worked with the client to increase cli
 
 The challenge was to build trust with his audience while providing engaging content.
 
-Using similar phrases and an excited, almost rushed tone, I matched his writing style. Asking him about his browsing habits, we identified several subreddits and parasocial newsletters he follows as content repositories that offered new content to his audience. 
-
+I matched his writing and speaking style by using similar phraseology, crafting an excited, almost rushed tone. Asking him about his browsing habits, we identified several subreddits and parasocial newsletters he follows as content repositories that offered new content to his audience.
 
 ![alt text]({{ image | url }} "Email copywriting")
 
