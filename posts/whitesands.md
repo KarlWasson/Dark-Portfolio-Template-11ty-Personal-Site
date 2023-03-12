@@ -1,6 +1,6 @@
 ---
-title: Vacation Rental Copywriter | White Sands Cove Resort
-description: Website copywriter for White Sands Cove Resort
+title: Web Copy | White Sands Cove Resort
+description: Website copywriter for White Sands Cove Resort Web Site Redesign
 date: 2021-02-02
 tags:
   - web copy
