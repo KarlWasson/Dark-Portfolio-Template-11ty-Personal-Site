@@ -1,5 +1,5 @@
 ---
-title: Email Marketing Services | Parasocial Email Copywriting Case Study
+title: Email Marketing Services | Parasocial Email Copywriting
 
 description: Email copywriting
 date: 2020-01-03
