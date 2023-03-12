@@ -1,5 +1,5 @@
 ---
-title: Blog Copywriting and Storytelling | Inside Vietnam's Raw Denim Community
+title: Blog Copywriting & Storytelling | Inside Vietnam's Raw Denim Community
 description: A deep-dive into Vietnam's raw denim subculture
 date: 2018-05-07
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Blog Copywriting and Storytelling | Koio's Mission to Clean Up Chrome-Tanned Leather
+title: Blog Copywriting & Storytelling | Koio's Mission to Clean Up Chrome-Tanned Leather
 
 description: Blog copywriting for sneaker brand
 date: 2021-05-03

@@ -1,5 +1,5 @@
 ---
-title: Creative Copywriting Case Study | Freddy Gets Faded - A Nightmare On Elm Street x Naked & Famous Denim
+title: Creative Copywriting | Freddy Gets Faded - A Nightmare On Elm Street x Naked & Famous Denim
 description: This is a press release for menswear
 date: 2022-02-18
 tags:
