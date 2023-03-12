@@ -8,7 +8,6 @@ tags:
   - blog
   - SEO
   - script writing
-  
 layout: layouts/post.njk
 image: /img/w3images/koio.jpg
 ---

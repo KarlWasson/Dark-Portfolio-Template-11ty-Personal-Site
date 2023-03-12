@@ -6,7 +6,6 @@ tags:
   - blog
   - interview
   - journalism
-  
 layout: layouts/post.njk
 image: /img/w3images/vnraw.jpg
 ---

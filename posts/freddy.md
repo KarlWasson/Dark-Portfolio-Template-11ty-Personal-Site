@@ -6,7 +6,6 @@ tags:
   - blog
   - press release
   - lifesytle
-  
 layout: layouts/post.njk
 image: /img/w3images/Freddy-Flat.jpg
 ---

@@ -6,7 +6,6 @@ tags:
   - web copy
   - SEO
   - branding
-  
 layout: layouts/post.njk
 image: /img/w3images/whitesands.jpg
 ---
