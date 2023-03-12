@@ -9,7 +9,7 @@ tags:
 layout: layouts/post.njk
 image: /img/w3images/sec-software-dev.jpg
 ---
-A cybersecurity company engaged my thought-leadership copywriting services to a blog about securing the software development lifecycle. The article was pitched to media outlets and picked up by [Venture Beat](https://venturebeat.com/).
+A cybersecurity company engaged my thought-leadership copywriting services to write a blog about securing the software development lifecycle. The article was pitched to media outlets and picked up by [Venture Beat](https://venturebeat.com/).
 
 The project involved interviewing the VP of products and working together to craft thought-provoking content for decision-makers and leaders interested in DevSecOps.
 
