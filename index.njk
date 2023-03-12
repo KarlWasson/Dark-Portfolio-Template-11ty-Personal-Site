@@ -63,10 +63,8 @@ eleventyNavigation:
       </a></p>
     </div>
     <p class="w3-padding-small w3-large">I take this advice seriously and only put the most relevant information for your audience on your website.</p>
-  </div>
 
-  
-      <!--Web Development Content-->
+          <!--Web Development Content-->
     <p class="w3-wide w3-large w3-text-light-grey">Website Development</p>
       <p class="w3-padding-small w3-large">A well-designed website is a must. So, I pay close attention to detail, from user accessibility to page speed, using a tool called Lighthouse by Google.</p>
       <p class="w3-padding-small w3-large">I assess my hobby sites using Google Lighthouse for three reasons.</p>
@@ -75,8 +73,9 @@ eleventyNavigation:
         <li class="w3-padding-small">Lighthouse Audits make websites more usable for your visitors.</li>
         <li class="w3-padding-small"> Everyone wins if Google and your visitors are happy. 🙌</li>
       </ol>
+  </div>
 
-   
+  
 
 
 <!-- Portfolio Section -->
@@ -125,7 +124,7 @@ eleventyNavigation:
 </style>
 <div class="row"> 
   <div class="column">
-   {% for post in collections.photo | head(-8) %}
+   {% for post in collections.posts | head(-8) %}
    {% if loop.index==4 %}
       </div><div class="column">
       {% endif %}
