@@ -14,6 +14,84 @@ eleventyNavigation:
 <script async src="/va/script.js"></script>
 
 </header>
+<!-- Terminal Widget -->
+{# <div class="w3-container w3-card terminal-container">
+  <!-- Tabs at the top -->
+  <div class="w3-bar terminal-tab">
+    <button class="w3-bar-item w3-button active-tab">Terminal</button>
+    <button class="w3-bar-item w3-button">Tab 2</button>
+  </div>
+
+  <div class="terminal-output w3-padding">
+    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Hi, I'm Karl.</p>
+    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> I like to write and program.</p>
+    <p class="w3-text-white"><span class="prompt w3-text-pink"></span> Type 'help' to see available commands.</p>
+    <!-- Add lines -->
+
+  </div>
+  <div class="terminal-input w3-padding">
+    <span class="prompt w3-text-pink">karlwasson@home~$</span> <input class="w3-input w3-border-0 w3-text-white" type="text" style="display:inline;width:auto;" autofocus/>
+  </div>
+</div> #}
+<!-- Terminal Widget -->
+<div class="w3-container w3-card terminal-container">
+  <!-- Tabs at the top -->
+  <div class="w3-bar terminal-tab">
+    <button class="w3-bar-item w3-button active-tab">Terminal</button>
+    <button class="w3-bar-item w3-button">Tab 2</button>
+  </div>
+
+  <div class="terminal-output w3-padding" id="terminal-output">
+    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Hi, I'm Karl.</p>
+    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> I like to write and program.</p>
+    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Type <span class="syntax-highlight-command w3-text-yellow">'help'</span> to see available commands.</p>
+  </div>
+
+  <div class="terminal-input w3-padding">
+    <span class="prompt w3-text-pink">karlwasson@home~$</span> <input class="w3-input w3-border-0 w3-text-white" type="text" id="terminal-input" style="display:inline;width:auto;" autofocus />
+  </div>
+</div>
+<script>
+const terminalOutput = document.getElementById('terminal-output');
+const terminalInput = document.getElementById('terminal-input');
+
+terminalInput.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    const command = terminalInput.value;
+    let response = '';
+    
+    switch(command) {
+      case 'help':
+        response = `
+          Available Commands:<br>
+          <span class="syntax-highlight-command w3-text-yellow">'help'</span>  - Display this help menu.<br>
+          <span class="syntax-highlight-command w3-text-blue">'about'</span>  - More about me.<br>
+          <span class="syntax-highlight-command w3-text-blue">'contact'</span> - How to get in touch.<br>
+          <span class="syntax-highlight-command w3-text-red">'clear'</span> - Clear the terminal.
+        `;
+        break;
+      case 'about':
+        response = 'I live in Vietnam. I write for Stridewise.';
+        break;
+      case 'contact':
+        response = 'You can reach me at: <span class="w3-text-green">contact@karlwasson.com</span>';
+        break;
+      case 'clear':
+        terminalOutput.innerHTML = '';
+        break;
+      default:
+        response = `Unknown command: ${command}. Type <>'help' for available commands.`;
+    }
+
+    terminalOutput.innerHTML += `<p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$ </span> ${command}</p>`;
+    terminalOutput.innerHTML += `<p class="w3-text-white">${response}</p>`;
+    
+    // Clear input
+    terminalInput.value = '';
+  }
+});
+ 
+</script>
 
 <!-- Expertise Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="expertise">
@@ -114,6 +192,51 @@ eleventyNavigation:
   margin-top: 8px;
   vertical-align: middle;
 }
+.terminal-tab {
+  position: absolute;
+  top: -32px;
+  left: 10px;
+  z-index: 2;
+}
+
+.terminal-container {
+  width: 60%;
+  margin: auto;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.terminal-tab {
+  background-color: #333;
+  border-radius: 8px 8px 0 0;
+}
+
+.terminal-tab button {
+  border: none;
+  padding: 8px 16px;
+  background-color: #555;
+  border-radius: 0;
+  margin-right: 8px;
+  transition: background-color 0.2s;
+}
+
+.terminal-tab button.active-tab, .terminal-tab button:hover {
+  background-color: #2d2d2d;
+}
+
+.terminal-input, .terminal-input input:focus, .terminal-input input:not(:focus) {
+  background-color: #2d2d2d;
+  outline: none;
+}
+
+.prompt {
+  font-weight: bold;
+}
+
+
+
   {% raw %}
 @media (max-width: 600px) {
   .column {
