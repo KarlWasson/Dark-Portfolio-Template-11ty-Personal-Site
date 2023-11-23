@@ -15,25 +15,6 @@ eleventyNavigation:
 
 </header>
 <!-- Terminal Widget -->
-{# <div class="w3-container w3-card terminal-container">
-  <!-- Tabs at the top -->
-  <div class="w3-bar terminal-tab">
-    <button class="w3-bar-item w3-button active-tab">Terminal</button>
-    <button class="w3-bar-item w3-button">Tab 2</button>
-  </div>
-
-  <div class="terminal-output w3-padding">
-    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Hi, I'm Karl.</p>
-    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> I like to write and program.</p>
-    <p class="w3-text-white"><span class="prompt w3-text-pink"></span> Type 'help' to see available commands.</p>
-    <!-- Add lines -->
-
-  </div>
-  <div class="terminal-input w3-padding">
-    <span class="prompt w3-text-pink">karlwasson@home~$</span> <input class="w3-input w3-border-0 w3-text-white" type="text" style="display:inline;width:auto;" autofocus/>
-  </div>
-</div> #}
-<!-- Terminal Widget -->
 <div class="w3-container w3-card terminal-container">
   <!-- Tabs at the top -->
   <div class="w3-bar terminal-tab">
@@ -42,13 +23,20 @@ eleventyNavigation:
   </div>
 
   <div class="terminal-output w3-padding" id="terminal-output">
-    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Hi, I'm Karl.</p>
-    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> I like to write and program.</p>
-    <p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$</span> Type <span class="syntax-highlight-command w3-text-yellow">'help'</span> to see available commands.</p>
+    <p class="accessible-text-pink"><span class="prompt accessible-text-pink">karlwasson@home~$</span> Hi, I'm Karl.</p>
+    <p class="w3-text-white"><span class="prompt accessible-text-pink">karlwasson@home~$</span> I like to write and program.</p>
+    <p class="w3-text-white"><span class="prompt accessible-text-pink">karlwasson@home~$</span> Type <span class="syntax-highlight-command w3-text-yellow">'help'</span> to see available commands.</p>
   </div>
 
   <div class="terminal-input w3-padding">
-    <span class="prompt w3-text-pink">karlwasson@home~$</span> <input class="w3-input w3-border-0 w3-text-white" type="text" id="terminal-input" style="display:inline;width:auto;" autofocus />
+    <span class="prompt accessible-text-pink">karlwasson@home~$</span> <input 
+    class="w3-input w3-border-0 w3-text-white" 
+    type="text" 
+    id="terminal-input" 
+    style="display:inline;width:auto;" 
+    autofocus="" 
+    title="Toy Terminal" 
+    placeholder="Enter text here">
   </div>
 </div>
 <script>
@@ -76,14 +64,14 @@ terminalInput.addEventListener('keydown', function(event) {
       case 'contact':
         response = 'You can reach me at: <span class="w3-text-green">contact@karlwasson.com</span>';
         break;
-      case 'clear':
+      case 'clear':accessible-text-light-grey
         terminalOutput.innerHTML = '';
         break;
       default:
         response = `Unknown command: ${command}. Type <>'help' for available commands.`;
     }
 
-    terminalOutput.innerHTML += `<p class="w3-text-white"><span class="prompt w3-text-pink">karlwasson@home~$ </span> ${command}</p>`;
+    terminalOutput.innerHTML += `<p class="w3-text-white"><span class="prompt accessible-text-pink">karlwasson@home~$ </span> ${command}</p>`;
     terminalOutput.innerHTML += `<p class="w3-text-white">${response}</p>`;
     
     // Clear input
@@ -94,17 +82,17 @@ terminalInput.addEventListener('keydown', function(event) {
 </script>
 
 <!-- Expertise Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="expertise">
-    <h2 class="w3-text-light-grey">My Expertise</h2>
+  <div class="w3-content w3-justify accessible-text-grey w3-padding-64" id="expertise">
+    <h2 class="accessible-text-light-grey">My Expertise</h2>
     <hr style="width:200px" class="w3-opacity">
     <!-- About Section Content-->
     <p class= "w3-large">I make content that helps people find the information they need.</p>
     <p class="w3-large">I have a deep understanding of how SEO impacts organic traffic.</p>
     <p class="w3-large">I enjoy building websites and experimenting with new technologies.</p>
 
-    {# <h3 class="w3-text-light-grey">How? <h3>
+    {# <h3 class="">How? <h3>
     <p class="w3-large">Following the best practices set by Google, A11y, digital.gov, i18n, and many other fantastic orgs.</p>
-     <h3 class="w3-text-light-grey">Why? <h3>
+     <h3 class="accessible-text-light-grey">Why? <h3>
     <p class="w3-large"> Focusing on fundamentals provides an easy and pleasant experience for you and your website’s users.</p> #}
     {# <p class="w3-large">To ensure that you receive the best service, I limit my work to a handful of carefully selected clients. I also partner with the best designers and SEO experts I can find.</p> #}
     {# <a href="/#contact" class="w3-text-pink" aria-label="navigate to our contact form">
@@ -112,11 +100,11 @@ terminalInput.addEventListener('keydown', function(event) {
     </a> #}
   </div>
 
-  <div class="w3-content w3-text-grey w3-padding-64" id="services">
+  <div class="w3-content accessible-text-grey w3-padding-64" id="services">
         <!-- My Services Content-->
-    <h2 class="w3-text-light-grey">My Philosophy</h2>
+    <h2 class="accessible-text-light-grey">My Philosophy</h2>
     <hr style="width:200px" class="w3-opacity">
-        <p class="w3-wide w3-large w3-text-light-grey">High-quality digital content benefits businesses and their customers.</p>
+        <p class="w3-wide w3-large accessible-text-light-grey">High-quality digital content benefits businesses and their customers.</p>
     <ul class="w3-large">
       <li class="w3-padding-small">People want what you offer.</li>
       <li class="w3-padding-small">Users enjoy high-quality, relevant content that solves a problem.</li>
@@ -131,19 +119,19 @@ terminalInput.addEventListener('keydown', function(event) {
 
 
      <!--Content Management Content-->
-    <p class="w3-wide w3-large w3-text-light-grey">Content Creation &amp; Management</p>
+    <p class="w3-wide w3-large accessible-text-light-grey">Content Creation &amp; Management</p>
     <p class="w3-padding-small w3-large">I'm particular about high-quality content. According to Google, it’s my responsibility as a content creator to</p>
     <div class="w3-panel">
-      <p class="w3-large w3-text-pink">
+      <p class="w3-large accessible-text-pink">
         <i>"Provide high-quality content on your pages, especially your homepage. This is the single most important thing to do."</i></p>
-        <p><a href="https://support.google.com/webmasters/answer/40349?hl=en" class="w3-text-pink" aria-label="leave this page and navigate to the source of this quote">
+        <p><a href="https://support.google.com/webmasters/answer/40349?hl=en" class="accessible-text-pink" aria-label="leave this page and navigate to the source of this quote">
         <p class="w3-large w3-padding-16">Source: Google Webmaster Guidelines</p>
       </a></p>
     </div>
     <p class="w3-padding-small w3-large">I take this advice seriously and only put the most relevant information for your audience on your website.</p>
 
           <!--Web Development Content-->
-    {# <p class="w3-wide w3-large w3-text-light-grey">Website Development</p>
+    {# <p class="w3-wide w3-large accessible-text-light-grey">Website Development</p>
       <p class="w3-padding-small w3-large">A well-designed website is a must. So, I pay close attention to detail, from user accessibility to page speed, using a tool called Lighthouse by Google.</p>
       <p class="w3-padding-small w3-large">I assess my hobby sites using Google Lighthouse for three reasons.</p>
       <ol class="w3-large">
@@ -158,7 +146,7 @@ terminalInput.addEventListener('keydown', function(event) {
 
 <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="portfolio">
-    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <h2 class="accessible-text-light-grey">My Portfolio</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
@@ -262,7 +250,7 @@ terminalInput.addEventListener('keydown', function(event) {
     </div>
   <!-- End Portfolio Section -->
   </div>
-{# <div class="w3-content w3-justify w3-text-grey w3-large w3-padding-64">
+{# <div class="w3-content w3-justify accessible-text-grey w3-large w3-padding-64">
 <h1>Latest 3 Posts</h1>
 
 {% set postslist = collections.posts | head(-3) %}
@@ -273,8 +261,8 @@ terminalInput.addEventListener('keydown', function(event) {
 </div> #}
 
 <!-- Contact Section -->
- <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Karl</h2>
+ <div class="w3-padding-64 w3-content accessible-text-grey" id="contact">
+    <h2 class="accessible-text-light-grey">Contact Karl</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
